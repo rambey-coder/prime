@@ -15,8 +15,40 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .anime-img > img {
     width: 120px;
+}
+
+.progress {
+    width: 70%;
+    background: #12ea81;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+.bar {
+    width: 0%;
+    background: #d7fb4f;
+    height: 16px;
+}
+
+.percent {
+    text-align: center;
+    color: #15141a;
+    font-weight: 700;
+    /* mix-blend-mode: difference; */
+}
+
+.main-content {
+    display: none;
+}
+
+.content {
+    color: #FFFF;
 }
