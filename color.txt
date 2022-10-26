@@ -1,0 +1,12 @@
+/*
+green: #12ea81
+*/
+/*
+lemon: #d7fb4f
+*/
+/*
+white: #ffffff
+*/
+/*
+black: #15141a
+*/
