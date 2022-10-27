@@ -2,8 +2,6 @@ const bounce = new TimelineMax({
     repeat: -1
 })
 
-
-
 function bounceball() {
     let bunce = new TimelineMax();
 
@@ -64,7 +62,7 @@ load.to('.chain', .5, {
 })
 
 load.to('.chain, .poly', {
-    delay: 1,
+    // delay: 1,
     duration: 1,
     display: 'none'
 })
@@ -77,6 +75,14 @@ load.to('.main-content', {
     display: 'block',
     ease: "power3.in",
     duration: 2.4
+})
+
+load.fromTo('.content', .6, {
+    y: '-100%',
+}, {
+    y: 0,
+    duration:3,
+    ease: "bounce.Out"
 })
 
 let id, width = 0;
