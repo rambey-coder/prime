@@ -19,7 +19,7 @@ body {
 }
 
 .anime-img > img {
-    width: 120px;
+    width: 90px;
 }
 
 .progress {
@@ -42,7 +42,6 @@ body {
     text-align: center;
     color: #15141a;
     font-weight: 700;
-    /* mix-blend-mode: difference; */
 }
 
 .main-content {
@@ -51,4 +50,55 @@ body {
 
 .content {
     color: #FFFF;
+}
+
+.nav-bar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icn {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to right top, #12ea81, #63f072, #8ff464, #b4f858, #d7fb4f);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link > li {
+    list-style-type: none;
+}
+
+.link > li > a {
+    text-decoration: none;
+    color: #a5acaf;
+    font-size: 20px;
+}
+
+.nav-bar > button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #15141a;
+    font-weight: 600;
+    background: linear-gradient(to right top, #12ea81, #63f072, #8ff464, #b4f858, #d7fb4f);
 }
